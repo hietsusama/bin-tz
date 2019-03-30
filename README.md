@@ -9,8 +9,8 @@ Version ：0.1
 
 ### view：
 
-![此处输入图片的描述][2]
+![预览图][2]
 
 
   [1]: https://lnmp.me/tz.php
-  [2]: //i.loli.net/2019/03/30/5c9f3d55040de.png
+  [2]: https://i.loli.net/2019/03/30/5c9f3d55040de.png
