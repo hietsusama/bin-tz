@@ -9,6 +9,7 @@ date_default_timezone_set('Asia/Beijing');//此句用于消除时间差
 
 $title = 'BIN探针';
 $version = "0.1"; //版本号
+$website = "https://github.com/getbin/bin-tz";
 
 define('HTTP_HOST', preg_replace('~^www\.~i', '', $_SERVER['HTTP_HOST']));
 
@@ -528,6 +529,7 @@ if ($_GET['act'] == "rt")
     <title><?php echo $title.$version; ?></title>
     <link href="//lib.baomitu.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <script src="//lib.baomitu.com/jquery/3.3.1/jquery.min.js"></script>
+    <!--<?php  echo $website;?>-->
     <script type="text/javascript">
     <!--
     $(document).ready(function(){getJSONData();});
